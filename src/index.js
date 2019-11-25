@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "bootstrap";
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// '~' désigne le dossier node_modules
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
